@@ -5,8 +5,9 @@
 Clone command (with token redacted):
 
 ```bash
-git clone https://x-access-token:<TOKEN>@builder.kiloapps.io/apps/7f44a922-bf5f-41e4-b595-a558bc430af0.git
+git clone https://x-access-token:<TOKEN>@builder.kiloapps.io/apps/<APP_ID>.git
 ```
 
 Replace `<TOKEN>` with a valid Kilo builder access token.
+Replace `<APP_ID>` with your target Kilo app repository identifier.
 Use a token with the minimum required scope and a short expiration, and never commit tokens to source control.
